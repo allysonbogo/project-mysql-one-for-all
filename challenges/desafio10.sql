@@ -2,11 +2,11 @@ USE SpotifyClone;
 
 CREATE TABLE favoritadas 
 (
-    pessoa_usuaria_id	INT NOT NULL,
-    cancao_id	INT NOT NULL,
-    	CONSTRAINT PRIMARY KEY(pessoa_usuaria_id, cancao_id),
-      FOREIGN KEY (pessoa_usuaria_id) REFERENCES usuarios (pessoa_usuaria_id),
-      FOREIGN KEY (cancao_id) REFERENCES cancoes (cancao_id)
+	pessoa_usuaria_id	INT NOT NULL,
+	cancao_id	INT NOT NULL,
+		CONSTRAINT PRIMARY KEY(pessoa_usuaria_id, cancao_id),
+		FOREIGN KEY (pessoa_usuaria_id) REFERENCES usuarios (pessoa_usuaria_id),
+		FOREIGN KEY (cancao_id) REFERENCES cancoes (cancao_id)
 ) engine = InnoDB;
 
 INSERT INTO favoritadas (pessoa_usuaria_id, cancao_id) VALUES
