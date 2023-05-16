@@ -5,9 +5,9 @@ SELECT
 	WHEN u.idade > 60  THEN 'Maior de 60 anos'
     END AS faixa_etaria,
 	COUNT(DISTINCT u.pessoa_usuaria_id) AS total_pessoas_usuarias,
-    COUNT(f.pessoa_usuaria_id) AS total_favoritadas
+    COUNT(fav.pessoa_usuaria_id) AS total_favoritadas
 FROM usuarios AS u
-LEFT JOIN favoritadas AS f
-ON u.pessoa_usuaria_id = f.pessoa_usuaria_id
+LEFT JOIN favoritadas AS fav
+ON u.pessoa_usuaria_id = fav.pessoa_usuaria_id
 GROUP BY faixa_etaria
 ORDER BY faixa_etaria;
