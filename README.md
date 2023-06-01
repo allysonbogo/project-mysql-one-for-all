@@ -23,7 +23,7 @@ Este projeto utiliza o banco de dados relacional MySQL, e para manipulá-lo cons
 
 ## ⚙️ Como Executar
 
-> :warning: _É necessário ter o Docker e o MySQL Workbench instalados para executar este projeto_
+> :warning: &nbsp; _É necessário ter o Docker e o MySQL Workbench instalados para executar este projeto_
 
 <details>
   <summary> Passo a passo </summary>
