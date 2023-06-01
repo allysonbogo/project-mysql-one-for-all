@@ -48,6 +48,6 @@ docker-compose up -d
 ```
 4. No MySQL Workbench, crie o banco de dados a partir dos comandos do arquivo <code>challenges/desafio1.sql</code>
 
-5. Depois que o banco de dados estiver criado, as queries podem ser testadas a partir dos comandos dos arquivos <code>challenges/desafio1...9.sql</code>
+5. Depois que o banco de dados estiver criado, as queries podem ser testadas a partir dos comandos dos arquivos <code>challenges/desafio2...9.sql</code>
 
 6. Para testar os comandos dos arquivos <code>challenges/desafio11...13.sql</code>, crie uma nova tabela a partir dos comandos do arquivo <code>challenges/desafio10.sql</code> no MySQL Workbench
